@@ -1,0 +1,28 @@
+{
+  "db": {
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "database": "exampledb",
+    "username": "exampleuser",
+    "password": "examplepass",
+    "port": 3306
+  },
+  "blogs": {
+    "en_US": 1,
+    "en_GB": 2
+  },
+  "post_types": [
+    "company-news",
+    "confirmation",
+    "customer-story",
+    "glossary",
+    "hero",
+    "landing_page",
+    "latest-news",
+    "page",
+    "post",
+    "press-release",
+    "resource",
+    "training"
+  ]
+}
