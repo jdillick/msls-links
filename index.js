@@ -112,7 +112,7 @@ const saveTermOptions = async termOptions => {
   }
 };
 
-const query = async () => {
+const run = async () => {
   try {
     const postOptions = await getPostOptions();
     await savePostOptions(postOptions);
@@ -124,4 +124,4 @@ const query = async () => {
   }
 };
 
-query();
+run();
